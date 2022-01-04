@@ -74,7 +74,7 @@ jobs:
       uses: SecureCodeWarrior/github-action-add-sarif-contextual-training@v1.0.7
       with:
   # Relative location of SARIF file(s) to process
-        inputSarifFile: ./javascript.sarif
+        inputSarifFile: ./results/javascript.sarif
   # Relative destination location for processed SARIF file(s)
-        outputSarifFile: ./javascript.processed.sarif
+        outputSarifFile: ./results/javascript.sarif
  
